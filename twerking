@@ -1,0 +1,15 @@
+facebook = "User: x & Passwort: x"
+gmail = "Email: x & Passwort: x"
+twitter = "Email: x & Passwort: x"
+
+print("\nwrite everything in small letter, no spacebar!")
+choice = input("\nWhich password would you like to know? ")
+
+if choice == "facebook":
+    print("\n" + facebook)
+elif choice == "gmail":
+    print("\n" + gmail)
+elif choice == "twitter":
+    print("\n" + twitter)
+else:
+    print("Try again!")
